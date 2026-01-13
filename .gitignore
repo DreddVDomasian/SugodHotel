@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .vs/slnx.sqlite
 .vs/SugodHotel.slnx/FileContentIndex/bd0d1060-dee6-4b96-892e-5b6d8449db26.vsidx
 .vs/SugodHotel.slnx/v18/.wsuo
@@ -21,6 +22,8 @@ My Project/Resources.resx
 obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 obj/Debug/SugodHotel.vbproj.AssemblyReference.cache
 obj/Debug/TempPE/My Project.Resources.Designer.vb.dll
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 *.vsidx
