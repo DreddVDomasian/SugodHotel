@@ -37,7 +37,9 @@ Partial Class addRoom
         Me.rate6hrsBox = New System.Windows.Forms.TextBox()
         Me.rate1dayBox = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.roomStatusBox = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.roomTypeComboBox = New System.Windows.Forms.ComboBox()
+        Me.roomStatusBox = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'Label12
@@ -95,7 +97,7 @@ Partial Class addRoom
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Montserrat Black", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label1.Location = New System.Drawing.Point(17, 158)
+        Me.Label1.Location = New System.Drawing.Point(17, 206)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(62, 24)
         Me.Label1.TabIndex = 23
@@ -106,7 +108,7 @@ Partial Class addRoom
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Montserrat SemiBold", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Location = New System.Drawing.Point(28, 182)
+        Me.Label2.Location = New System.Drawing.Point(28, 239)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(51, 24)
         Me.Label2.TabIndex = 24
@@ -117,7 +119,7 @@ Partial Class addRoom
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Montserrat SemiBold", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label3.Location = New System.Drawing.Point(28, 267)
+        Me.Label3.Location = New System.Drawing.Point(28, 296)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(51, 24)
         Me.Label3.TabIndex = 25
@@ -128,7 +130,7 @@ Partial Class addRoom
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Montserrat SemiBold", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label4.Location = New System.Drawing.Point(206, 182)
+        Me.Label4.Location = New System.Drawing.Point(206, 239)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(57, 24)
         Me.Label4.TabIndex = 26
@@ -139,7 +141,7 @@ Partial Class addRoom
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Montserrat SemiBold", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label5.Location = New System.Drawing.Point(206, 267)
+        Me.Label5.Location = New System.Drawing.Point(206, 296)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(48, 24)
         Me.Label5.TabIndex = 27
@@ -148,7 +150,7 @@ Partial Class addRoom
         'roomNumBox
         '
         Me.roomNumBox.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.roomNumBox.Location = New System.Drawing.Point(32, 113)
+        Me.roomNumBox.Location = New System.Drawing.Point(32, 97)
         Me.roomNumBox.Name = "roomNumBox"
         Me.roomNumBox.Size = New System.Drawing.Size(318, 27)
         Me.roomNumBox.TabIndex = 28
@@ -156,7 +158,7 @@ Partial Class addRoom
         'rate3hrsBox
         '
         Me.rate3hrsBox.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rate3hrsBox.Location = New System.Drawing.Point(32, 219)
+        Me.rate3hrsBox.Location = New System.Drawing.Point(32, 266)
         Me.rate3hrsBox.Name = "rate3hrsBox"
         Me.rate3hrsBox.Size = New System.Drawing.Size(140, 27)
         Me.rate3hrsBox.TabIndex = 29
@@ -164,7 +166,7 @@ Partial Class addRoom
         'rate12hrsBox
         '
         Me.rate12hrsBox.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rate12hrsBox.Location = New System.Drawing.Point(210, 219)
+        Me.rate12hrsBox.Location = New System.Drawing.Point(210, 266)
         Me.rate12hrsBox.Name = "rate12hrsBox"
         Me.rate12hrsBox.Size = New System.Drawing.Size(140, 27)
         Me.rate12hrsBox.TabIndex = 33
@@ -172,7 +174,7 @@ Partial Class addRoom
         'rate6hrsBox
         '
         Me.rate6hrsBox.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rate6hrsBox.Location = New System.Drawing.Point(32, 304)
+        Me.rate6hrsBox.Location = New System.Drawing.Point(32, 323)
         Me.rate6hrsBox.Name = "rate6hrsBox"
         Me.rate6hrsBox.Size = New System.Drawing.Size(140, 27)
         Me.rate6hrsBox.TabIndex = 34
@@ -180,7 +182,7 @@ Partial Class addRoom
         'rate1dayBox
         '
         Me.rate1dayBox.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rate1dayBox.Location = New System.Drawing.Point(210, 304)
+        Me.rate1dayBox.Location = New System.Drawing.Point(210, 323)
         Me.rate1dayBox.Name = "rate1dayBox"
         Me.rate1dayBox.Size = New System.Drawing.Size(140, 27)
         Me.rate1dayBox.TabIndex = 35
@@ -190,19 +192,42 @@ Partial Class addRoom
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Montserrat SemiBold", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label6.Location = New System.Drawing.Point(17, 353)
+        Me.Label6.Location = New System.Drawing.Point(12, 363)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(127, 24)
         Me.Label6.TabIndex = 36
         Me.Label6.Text = "INITIAL STATUS"
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Montserrat SemiBold", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label7.Location = New System.Drawing.Point(17, 143)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(105, 24)
+        Me.Label7.TabIndex = 38
+        Me.Label7.Text = "ROOM TYPE"
+        '
+        'roomTypeComboBox
+        '
+        Me.roomTypeComboBox.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.roomTypeComboBox.FormattingEnabled = True
+        Me.roomTypeComboBox.Items.AddRange(New Object() {"ECONOMY", "PREMIUM", "DELUXE", "EXECUTIVE", "LUXURY"})
+        Me.roomTypeComboBox.Location = New System.Drawing.Point(31, 170)
+        Me.roomTypeComboBox.Name = "roomTypeComboBox"
+        Me.roomTypeComboBox.Size = New System.Drawing.Size(319, 33)
+        Me.roomTypeComboBox.TabIndex = 40
+        '
         'roomStatusBox
         '
-        Me.roomStatusBox.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.roomStatusBox.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.roomStatusBox.FormattingEnabled = True
+        Me.roomStatusBox.Items.AddRange(New Object() {"Available", "Occupied", "Maintenance"})
         Me.roomStatusBox.Location = New System.Drawing.Point(32, 390)
         Me.roomStatusBox.Name = "roomStatusBox"
-        Me.roomStatusBox.Size = New System.Drawing.Size(318, 27)
-        Me.roomStatusBox.TabIndex = 37
+        Me.roomStatusBox.Size = New System.Drawing.Size(319, 33)
+        Me.roomStatusBox.TabIndex = 41
         '
         'addRoom
         '
@@ -211,6 +236,8 @@ Partial Class addRoom
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(32, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(372, 505)
         Me.Controls.Add(Me.roomStatusBox)
+        Me.Controls.Add(Me.roomTypeComboBox)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.rate1dayBox)
         Me.Controls.Add(Me.rate6hrsBox)
@@ -248,5 +275,7 @@ Partial Class addRoom
     Private WithEvents rate6hrsBox As TextBox
     Private WithEvents rate1dayBox As TextBox
     Private WithEvents Label6 As Label
-    Private WithEvents roomStatusBox As TextBox
+    Private WithEvents Label7 As Label
+    Friend WithEvents roomTypeComboBox As ComboBox
+    Friend WithEvents roomStatusBox As ComboBox
 End Class

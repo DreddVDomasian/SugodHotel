@@ -77,6 +77,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addRoom.Designer.vb">
+      <DependentUpon>addRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="dashboard.Designer.vb">
       <DependentUpon>dashboard.vb</DependentUpon>
     </Compile>
@@ -88,12 +94,6 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GuestManagement.Designer.vb">
-      <DependentUpon>GuestManagement.vb</DependentUpon>
-    </Compile>
-    <Compile Include="GuestManagement.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module1.vb" />
@@ -114,14 +114,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="addRoom.resx">
+      <DependentUpon>addRoom.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GuestManagement.resx">
-      <DependentUpon>GuestManagement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

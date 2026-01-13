@@ -34,7 +34,6 @@ Partial Class Form1
         Me.label3 = New System.Windows.Forms.Label()
         Me.label2 = New System.Windows.Forms.Label()
         Me.label1 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.loginBtn = New System.Windows.Forms.Button()
         Me.passwordBox = New System.Windows.Forms.TextBox()
@@ -42,9 +41,10 @@ Partial Class Form1
         Me.label13 = New System.Windows.Forms.Label()
         Me.usernameBox = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -188,16 +188,6 @@ Partial Class Form1
         Me.label1.TabIndex = 2
         Me.label1.Text = "LUXURY && COMFORT"
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.SugodHotel.My.Resources.Resources.cutLogo
-        Me.PictureBox1.Location = New System.Drawing.Point(128, 40)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(110, 110)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(32, Byte), Integer))
@@ -276,6 +266,16 @@ Partial Class Form1
         Me.Label12.TabIndex = 4
         Me.Label12.Text = "ADMIN LOGIN"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.SugodHotel.My.Resources.Resources.cutLogo
+        Me.PictureBox1.Location = New System.Drawing.Point(128, 40)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(110, 110)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -288,9 +288,9 @@ Partial Class Form1
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

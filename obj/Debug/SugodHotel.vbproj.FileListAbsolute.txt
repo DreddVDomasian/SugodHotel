@@ -14,3 +14,4 @@ C:\Users\domas\source\repos\SugodHotel\SugodHotel\bin\Debug\MySql.Data.dll
 C:\Users\domas\source\repos\SugodHotel\SugodHotel\bin\Debug\MySql.Data.xml
 C:\Users\domas\source\repos\SugodHotel\SugodHotel\obj\Debug\SugodHotel.vbproj.Up2Date
 C:\Users\domas\source\repos\SugodHotel\SugodHotel\obj\Debug\SugodHotel.dashboard.resources
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\obj\Debug\SugodHotel.addRoom.resources
