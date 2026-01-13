@@ -15,8 +15,14 @@
         Dim password As String = passwordBox.Text
         Dim query As String = "SELECT COUNT(*) FROM accounts WHERE username='" & username & "' AND password='" & password & "'"
         cmd = New MySql.Data.MySqlClient.MySqlCommand(query, con)
-
-        Me.Hide()
-        dashboard.Show()
+        Dim result As Integer = Convert.ToInt32(cmd.ExecuteScalar())
+        con.Close()
+        If result > 0 Then
+            MessageBox.Show("Login Successful")
+            Me.Hide()
+            dashboard.Show()
+        Else
+            MessageBox.Show("Invalid username or password")
+        End If
     End Sub
 End Class
