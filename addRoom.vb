@@ -1,25 +1,32 @@
 ﻿Public Class addRoom
-    Private Sub Label12_Click(sender As Object, e As EventArgs) Handles Label12.Click
+    Public Sub Label12_Click(sender As Object, e As EventArgs) Handles Label12.Click
 
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+    Public Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
 
-    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+    Public Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
 
     End Sub
 
-    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs)
+    Public Sub TextBox2_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+    Public Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
     End Sub
 
-    Private Sub addRoomBtn_Click(sender As Object, e As EventArgs) Handles MyBaseBtn.Click, MyBaseBtn.Click, MyBaseBtn.Click, MyBaseBtn.Click, MyBaseBtn.Click, MyBaseBtn.Click, MyBaseBtn.Click, MyBaseBtn.Click, MyBaseBtn.Click, MyBaseBtn.Click
+    Public Sub addRoomBtn_Click(sender As Object, e As EventArgs) Handles addRoomBtn.Click
+        'openCon()
+        'Try
+        '    cmd.Connection = con
+        '    cmd.CommandText = "INSERT INTO rooms (room_number, room_type, price, status) VALUES (@room_number, @room_type, @price, @status)"
+        'Catch ex As Exception
+
+        'End Try
 
     End Sub
 End Class
