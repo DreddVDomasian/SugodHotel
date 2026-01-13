@@ -18,9 +18,8 @@
         Dim result As Integer = Convert.ToInt32(cmd.ExecuteScalar())
         con.Close()
         If result > 0 Then
-            MessageBox.Show("Login Successful")
-            Me.Hide()
             dashboard.Show()
+            Me.Hide()
         Else
             MessageBox.Show("Invalid username or password")
         End If
