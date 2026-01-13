@@ -23,10 +23,6 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.label1 = New System.Windows.Forms.Label()
-        Me.label2 = New System.Windows.Forms.Label()
         Me.label11 = New System.Windows.Forms.Label()
         Me.label9 = New System.Windows.Forms.Label()
         Me.label8 = New System.Windows.Forms.Label()
@@ -36,15 +32,19 @@ Partial Class Form1
         Me.label5 = New System.Windows.Forms.Label()
         Me.label4 = New System.Windows.Forms.Label()
         Me.label3 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
+        Me.label2 = New System.Windows.Forms.Label()
+        Me.label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.loginBtn = New System.Windows.Forms.Button()
-        Me.PasswordBox = New System.Windows.Forms.TextBox()
+        Me.passwordBox = New System.Windows.Forms.TextBox()
         Me.label14 = New System.Windows.Forms.Label()
         Me.label13 = New System.Windows.Forms.Label()
         Me.usernameBox = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -66,52 +66,6 @@ Partial Class Form1
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(400, 509)
         Me.Panel1.TabIndex = 0
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(32, Byte), Integer))
-        Me.Panel2.Controls.Add(Me.loginBtn)
-        Me.Panel2.Controls.Add(Me.PasswordBox)
-        Me.Panel2.Controls.Add(Me.label14)
-        Me.Panel2.Controls.Add(Me.label13)
-        Me.Panel2.Controls.Add(Me.usernameBox)
-        Me.Panel2.Controls.Add(Me.Label12)
-        Me.Panel2.Location = New System.Drawing.Point(505, 41)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(404, 509)
-        Me.Panel2.TabIndex = 1
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.SugodHotel.My.Resources.Resources.cutLogo
-        Me.PictureBox1.Location = New System.Drawing.Point(128, 40)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(110, 110)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
-        'label1
-        '
-        Me.label1.AutoSize = True
-        Me.label1.Font = New System.Drawing.Font("Montserrat SemiBold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.label1.Location = New System.Drawing.Point(81, 153)
-        Me.label1.Name = "label1"
-        Me.label1.Size = New System.Drawing.Size(217, 30)
-        Me.label1.TabIndex = 2
-        Me.label1.Text = "LUXURY && COMFORT"
-        '
-        'label2
-        '
-        Me.label2.AutoSize = True
-        Me.label2.Font = New System.Drawing.Font("Montserrat Black", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.label2.Location = New System.Drawing.Point(51, 183)
-        Me.label2.Name = "label2"
-        Me.label2.Size = New System.Drawing.Size(279, 52)
-        Me.label2.TabIndex = 3
-        Me.label2.Text = "SUGOD HOTEL"
         '
         'label11
         '
@@ -212,16 +166,51 @@ Partial Class Form1
         Me.label3.TabIndex = 12
         Me.label3.Text = "DEVELOPERS"
         '
-        'Label12
+        'label2
         '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Montserrat Black", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label12.Location = New System.Drawing.Point(76, 40)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(268, 52)
-        Me.Label12.TabIndex = 4
-        Me.Label12.Text = "ADMIN LOGIN"
+        Me.label2.AutoSize = True
+        Me.label2.Font = New System.Drawing.Font("Montserrat Black", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.label2.Location = New System.Drawing.Point(51, 183)
+        Me.label2.Name = "label2"
+        Me.label2.Size = New System.Drawing.Size(279, 52)
+        Me.label2.TabIndex = 3
+        Me.label2.Text = "SUGOD HOTEL"
+        '
+        'label1
+        '
+        Me.label1.AutoSize = True
+        Me.label1.Font = New System.Drawing.Font("Montserrat SemiBold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.label1.Location = New System.Drawing.Point(81, 153)
+        Me.label1.Name = "label1"
+        Me.label1.Size = New System.Drawing.Size(217, 30)
+        Me.label1.TabIndex = 2
+        Me.label1.Text = "LUXURY && COMFORT"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.SugodHotel.My.Resources.Resources.cutLogo
+        Me.PictureBox1.Location = New System.Drawing.Point(128, 40)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(110, 110)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(32, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.loginBtn)
+        Me.Panel2.Controls.Add(Me.passwordBox)
+        Me.Panel2.Controls.Add(Me.label14)
+        Me.Panel2.Controls.Add(Me.label13)
+        Me.Panel2.Controls.Add(Me.usernameBox)
+        Me.Panel2.Controls.Add(Me.Label12)
+        Me.Panel2.Location = New System.Drawing.Point(505, 41)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(404, 509)
+        Me.Panel2.TabIndex = 1
         '
         'loginBtn
         '
@@ -237,14 +226,14 @@ Partial Class Form1
         Me.loginBtn.Text = "Log in"
         Me.loginBtn.UseVisualStyleBackColor = False
         '
-        'PasswordBox
+        'passwordBox
         '
-        Me.PasswordBox.Font = New System.Drawing.Font("Montserrat SemiBold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PasswordBox.Location = New System.Drawing.Point(33, 318)
-        Me.PasswordBox.Name = "PasswordBox"
-        Me.PasswordBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.PasswordBox.Size = New System.Drawing.Size(343, 33)
-        Me.PasswordBox.TabIndex = 18
+        Me.passwordBox.Font = New System.Drawing.Font("Montserrat SemiBold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.passwordBox.Location = New System.Drawing.Point(33, 318)
+        Me.passwordBox.Name = "passwordBox"
+        Me.passwordBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.passwordBox.Size = New System.Drawing.Size(343, 33)
+        Me.passwordBox.TabIndex = 18
         '
         'label14
         '
@@ -276,6 +265,17 @@ Partial Class Form1
         Me.usernameBox.Size = New System.Drawing.Size(343, 33)
         Me.usernameBox.TabIndex = 15
         '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Montserrat Black", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label12.Location = New System.Drawing.Point(76, 40)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(268, 52)
+        Me.Label12.TabIndex = 4
+        Me.Label12.Text = "ADMIN LOGIN"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -288,9 +288,9 @@ Partial Class Form1
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -311,7 +311,7 @@ Partial Class Form1
     Private WithEvents label3 As Label
     Private WithEvents Label12 As Label
     Private WithEvents loginBtn As Button
-    Private WithEvents PasswordBox As TextBox
+    Private WithEvents passwordBox As TextBox
     Private WithEvents label14 As Label
     Private WithEvents label13 As Label
     Private WithEvents usernameBox As TextBox
