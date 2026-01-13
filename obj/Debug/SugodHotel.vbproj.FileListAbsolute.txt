@@ -1,0 +1,12 @@
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\bin\Debug\SugodHotel.exe.config
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\bin\Debug\SugodHotel.exe
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\bin\Debug\SugodHotel.pdb
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\bin\Debug\SugodHotel.xml
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\obj\Debug\SugodHotel.vbproj.AssemblyReference.cache
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\obj\Debug\SugodHotel.Form1.resources
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\obj\Debug\SugodHotel.Resources.resources
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\obj\Debug\SugodHotel.vbproj.GenerateResource.cache
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\obj\Debug\SugodHotel.vbproj.CoreCompileInputs.cache
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\obj\Debug\SugodHotel.exe
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\obj\Debug\SugodHotel.xml
+C:\Users\domas\source\repos\SugodHotel\SugodHotel\obj\Debug\SugodHotel.pdb
